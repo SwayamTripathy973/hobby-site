@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Board Game Hobby</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0e6ef;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8856a7;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #6a4c93;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 5px;
+            background-color: #583d72;
+        }
+        nav a:hover {
+            background-color: #4a3465;
+        }
+        main {
+            padding: 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section:not(#what) {
+            display: none;
+        }
+        figure {
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #8856a7;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .validation-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .validation-buttons a {
+            margin: 0 10px;
+            text-decoration: none;
+            background-color: #6a4c93;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+        .validation-buttons a:hover {
+            background-color: #583d72;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Board Game Bonanza</h1>
+        <nav>
+            <a href="#what" onclick="showSection('what')">Home</a>
+            <a href="#who" onclick="showSection('who')">About</a>
+            <a href="#when" onclick="showSection('when')">When</a>
+            <a href="#where" onclick="showSection('where')">Where</a>
+            <a href="#how" onclick="showSection('how')">How</a>
+            <a href="#why" onclick="showSection('why')">Why</a>
+            <a href="#ai-prompts" onclick="showSection('ai-prompts')">AI Prompts</a>
+        </nav>
+    </header>
+    <main>
+        <section id="what">
+            <h2>What is Board Game Bonanza?</h2>
+            <p>Board Game Bonanza is a celebration of all things tabletop gaming. From strategy games to party games, we explore the vast and exciting world of board games.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/Board%20game%20table%20top%20view?width=512&height=512&nologo=true" alt="Board Game Table Top View">
+                <figcaption>A tabletop view of various board games.</figcaption>
+                <p style="font-style: italic;">Prompt: Board game table top view</p>
+            </figure>
+            <p>Whether you're a seasoned gamer or new to the hobby, there's always something new to discover.</p>
+            <p>We aim to bring people together through the joy of playing board games.</p>
+        </section>
+        <section id="who">
+            <h2>Who We Are</h2>
+            <p>We are a group of board game enthusiasts who love to explore and share our passion with others.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/Group%20of%20people%20playing%20board%20games?width=512&height=512&nologo=true" alt="Group Playing Board Games">
+                <figcaption>A group of friends enjoying a board game night.</figcaption>
+                <p style="font-style: italic;">Prompt: Group of people playing board games</p>
+            </figure>
+            <p>Our mission is to create a welcoming community for board game lovers of all levels.</p>
+            <p>We host regular game nights and events to bring people together.</p>
+        </section>
+        <section id="when">
+            <h2>When to Play</h2>
+            <p>Board games can be enjoyed at any time, but we especially love playing on weekends and during holidays.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/Clock%20with%20board%20game%20pieces?width=512&height=512&nologo=true" alt="Clock with Board Game Pieces">
+                <figcaption>A clock with board game pieces indicating game time.</figcaption>
+                <p style="font-style: italic;">Prompt: Clock with board game pieces</p>
+            </figure>
+            <p>Our organized game nights are typically held on Friday evenings.</p>
+            <p>Check our schedule for upcoming events and game sessions.</p>
+        </section>
+        <section id="where">
+            <h2>Where to Play</h2>
+            <p>We play at various locations, including community centers, cafes, and private homes.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/Map%20with%20board%20game%20markers?width=512&height=512&nologo=true" alt="Map with Board Game Markers">
+                <figcaption>A map showing various locations for board game meetups.</figcaption>
+                <p style="font-style: italic;">Prompt: Map with board game markers</p>
+            </figure>
+            <p>Our main venue is the local community center, which provides ample space and resources.</p>
+            <p>We also organize outdoor game sessions during the summer months.</p>
+        </section>
+        <section id="how">
+            <h2>How to Play</h2>
+            <p>Learning to play board games is easy and fun. We provide tutorials and demonstrations for new players.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/Hands%20setting%20up%20a%20board%20game?width=512&height=512&nologo=true" alt="Hands Setting Up a Board Game">
+                <figcaption>Hands setting up a board game for play.</figcaption>
+                <p style="font-style: italic;">Prompt: Hands setting up a board game</p>
+            </figure>
+            <p>We encourage players to ask questions and learn from each other.</p>
+            <p>Many online resources and videos are available to help you learn new games.</p>
+        </section>
+        <section id="why">
+            <h2>Why Play Board Games?</h2>
+            <p>Board games offer a great way to socialize, have fun, and exercise your brain.</p>
+            <figure>
+                <img src="https://image.pollinations.ai/prompt/People%20laughing%20while%20playing%20board%20games?width=512&height=512&nologo=true" alt="People Laughing Playing Board Games">
+                <figcaption>People
