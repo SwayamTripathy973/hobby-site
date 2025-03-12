@@ -82,6 +82,15 @@
             background-color: #583d72;
         }
     </style>
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -155,6 +164,4 @@
         <section id="why">
             <h2>Why Play Board Games?</h2>
             <p>Board games offer a great way to socialize, have fun, and exercise your brain.</p>
-            <figure>
-                <img src="https://image.pollinations.ai/prompt/People%20laughing%20while%20playing%20board%20games?width=512&height=512&nologo=true" alt="People Laughing Playing Board Games">
-                <figcaption>People
+            <figure
